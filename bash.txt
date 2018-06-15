@@ -1,0 +1,44 @@
+Basic bash commands
+
+
+ls: lists down all the files anad directories in the current working directory
+ls -a: also lists hidden files whose name starts with .and .. 
+ls -l: lists contents in long format
+ls -t: lists as per time modified
+
+cd: move to a directory
+cd .. :go back one directory
+
+cp file1.txt file2.txt : copies contents of file1 to file2
+
+cat file.txt : diaplays contents of that file
+
+sort file.txt : sorts contents of file in ascending order
+
+uniq : filters adjacent duplicates in a file
+
+mv file.txt directory/ : moves file to the particular directory mentioned
+
+rm : removes a mentioned file in the current working directory
+rm -rf: removes the directory and all the child directories
+
+| :takes output from LHS from and gives it as input to RHS
+
+* : Wildcards -select group of files in the working directory
+m*.txt : select group of files starting with m and ends in .txt
+
+wc : displays no.of lines,words,characters
+
+grep : searches for a regular expression globally
+grep -i: case insensitive
+grep -R: searches all files in a directory and outputs filenames
+
+sed: similar to find and replace and outputs it
+
+source ~/.bashprofile : brings current changes activated
+
+aliases : to make keyboard shortcuts
+
+export : to define a variable
+
+
