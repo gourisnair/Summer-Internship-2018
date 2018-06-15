@@ -1,0 +1,41 @@
+Understanding Github
+
+Github is  a website in which we could publish repositories to collaborate worldwide.
+
+There are basic commands to be followed for this.First of all we should install git which is a Version Control System(VCS).
+
+To install git,
+
+sudo apt-get install git
+
+After installing git we can push or pull repositories with the help of some commands in the terminal.
+
+To push a repository,
+
+1)create a repository in your account.
+
+2)clone the repository to your local system.
+
+
+	git clone url(can be found on the address bar or on the next github page that you get after creating the repository)
+
+
+3)make sure that the file to be pushed is in your repository or you may copy it using the command
+
+	cp filename repository/
+
+4)use  git add filename to update all the changes that you made in your file.
+
+5)to add a comment about what the content is actually about use 
+
+
+	git commit -u ""
+
+
+6)now push it to the required branch
+
+
+	git push origin master
+
+
+Master is the default branch.
