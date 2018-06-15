@@ -39,3 +39,6 @@ To push a repository,
 
 
 Master is the default branch.
+
+
+Now to pull a repository,first fork it and make the required changes.Now create a pull request to merge it with the original.
