@@ -1,0 +1,14 @@
+Protocols are rules.So communication protocols are the rules for communication.
+They have a clear cut approach that either to follow the rules or not to communicate.
+They usually include UART,USART,SPI,I2C.
+UART:Universal Asynchronous Receiver Transmitter
+USART:Universal Synchronous Asynchronous Receiver Transmitter
+SPI:Serial Peripheral Interface
+I2C:Inter Integrated Circuit
+
+UART
+UART is the hardware that deals with serial communication through serial ports.
+It is a standalone IC also found along with microcontrollers.
+Since it is a serial communication hardware,it transfers one bit at a time sequentially through the channel.
+Shift Registers are one unavoidable part of these devices as they are the one responsible for the conversion of serial data to parallel data.
+UART as the name suggests deals with asynchronous data hence is provided internally with a clock.So they works in the Baude rate,where baude rate is the no. of symbols per second.
