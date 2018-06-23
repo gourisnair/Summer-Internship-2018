@@ -28,3 +28,4 @@ After the data  is the PARITY BIT.
 Parity bit is added inorder to check accuracy of data.Parity can be odd or even.If the no. of 1s in the data is odd, its off odd parity.If even,its of even parity.
 The receiver which is in sync with the transmitter expects a parity for the coming data.If met with an error will ask the transmitter to resend it.
 
+After the parity bit lies the stop bits which is either one or two.
