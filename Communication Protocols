@@ -2,7 +2,7 @@ Protocols are rules.So communication protocols are the rules for communication.
 They have a clear cut approach that either to follow the rules or not to communicate.
 They usually include UART,USART,SPI,I2C.
 UART:Universal Asynchronous Receiver Transmitter
-USART:Universal Synchronous Asynchronous Receiver Transmitter
+USART:Universal Synchronous Asynchronous (no clock data is transmitted) Receiver Transmitter
 SPI:Serial Peripheral Interface
 I2C:Inter Integrated Circuit
 
@@ -31,3 +31,17 @@ The receiver which is in sync with the transmitter expects a parity for the comi
 After the parity bit lies the stop bits which is either one or two.
 
 SPI
+
+Deals with two way communication.
+One master and multiple slaves concept.
+At a time can take input from more than one input devices.
+A standard SPI has 4 signals:MISO(Master Input Slave Output),MOSI(Master Output Slave Input),SCK(clock),SS(Slave Select).
+Since it includes clock signal,no need to know baude rate prior.
+
+I2C
+
+Serial communication protocol.
+In this protocol multiple masters are included.
+So multiple slaves can communicate with multiple masters or multiple slaves with single master.
+Has only two wires,SDA:Serial Data and SCL:Serial Clock.
+
