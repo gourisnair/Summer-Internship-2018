@@ -29,3 +29,5 @@ Parity bit is added inorder to check accuracy of data.Parity can be odd or even.
 The receiver which is in sync with the transmitter expects a parity for the coming data.If met with an error will ask the transmitter to resend it.
 
 After the parity bit lies the stop bits which is either one or two.
+
+SPI
