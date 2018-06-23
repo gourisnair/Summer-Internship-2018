@@ -12,3 +12,19 @@ It is a standalone IC also found along with microcontrollers.
 Since it is a serial communication hardware,it transfers one bit at a time sequentially through the channel.
 Shift Registers are one unavoidable part of these devices as they are the one responsible for the conversion of serial data to parallel data.
 UART as the name suggests deals with asynchronous data hence is provided internally with a clock.So they works in the Baude rate,where baude rate is the no. of symbols per second.
+
+USART
+USART also deals with the serial communication of the data.
+Since dealing with synchronous data,it does not need to know the baude rate prior.
+It is provided clock externally.
+
+For both UART and USART,the communication happens through two lines:TX(Transmission) and RX(Reception).
+It can be,
+Simplex:one way transmission,transmitter to receiver.
+Half duplex:takes turns in reception and transmission.
+Full duplex:both transmission and reception at the same time.
+
+After the data  is the PARITY BIT.
+Parity bit is added inorder to check accuracy of data.Parity can be odd or even.If the no. of 1s in the data is odd, its off odd parity.If even,its of even parity.
+The receiver which is in sync with the transmitter expects a parity for the coming data.If met with an error will ask the transmitter to resend it.
+
