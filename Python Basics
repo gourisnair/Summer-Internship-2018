@@ -1,1 +1,5 @@
+To get python prompt in the terminal, simply type python in the command line.
+To exit,type exit()
+Python files to be saved in the extension .py
+To compile a python file, python filename.py
 
