@@ -1,0 +1,11 @@
+Embedded systems as the name suggests is something embedded to a system.
+Where system is something in which every component works in co-ordination with the other.
+Embedded systems are task specific.They are designed to perform a specific task.
+They sense for the changes to produce electrical signals,which is then digitalised to sent to the processor.This digital signal is then converted back to analog,which is the output signal for the actuator.
+Embedded systems usually include the SoCs or the System on Chip.
+SoCs generally include microprocessor or microcontroller,memory,clock etc.
+Microprocessor is a mini processor while microcontroller is a processor designed to do a specific task.
+Microprocessors have large memory when compared to microcoontrollers.
+Also the no. of free pins of a microporcessor can be increased by the vendor for a microprocessor,while its not the case of a microcontrollwer where the pins are fixed.
+Every aspect related to  microcontroller ,like memory,is fixed while it can be changed for as microprocessor.
+A processor in general has two parts the Control Unit(CU) and the Excecution Unit(EU).Where CU deals with the fetching of data and the EC deals with the excecution of the data.

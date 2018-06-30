@@ -1,0 +1,47 @@
+Protocols are rules.So communication protocols are the rules for communication.
+They have a clear cut approach that either to follow the rules or not to communicate.
+They usually include UART,USART,SPI,I2C.
+UART:Universal Asynchronous Receiver Transmitter
+USART:Universal Synchronous Asynchronous (no clock data is transmitted) Receiver Transmitter
+SPI:Serial Peripheral Interface
+I2C:Inter Integrated Circuit
+
+UART
+UART is the hardware that deals with serial communication through serial ports.
+It is a standalone IC also found along with microcontrollers.
+Since it is a serial communication hardware,it transfers one bit at a time sequentially through the channel.
+Shift Registers are one unavoidable part of these devices as they are the one responsible for the conversion of serial data to parallel data.
+UART as the name suggests deals with asynchronous data hence is provided internally with a clock.So they works in the Baude rate,where baude rate is the no. of symbols per second.
+
+USART
+USART also deals with the serial communication of the data.
+Since dealing with synchronous data,it does not need to know the baude rate prior.
+It is provided clock externally.
+
+For both UART and USART,the communication happens through two lines:TX(Transmission) and RX(Reception).
+It can be,
+Simplex:one way transmission,transmitter to receiver.
+Half duplex:takes turns in reception and transmission.
+Full duplex:both transmission and reception at the same time.
+
+After the data  is the PARITY BIT.
+Parity bit is added inorder to check accuracy of data.Parity can be odd or even.If the no. of 1s in the data is odd, its off odd parity.If even,its of even parity.
+The receiver which is in sync with the transmitter expects a parity for the coming data.If met with an error will ask the transmitter to resend it.
+
+After the parity bit lies the stop bits which is either one or two.
+
+SPI
+
+Deals with two way communication.
+One master and multiple slaves concept.
+At a time can take input from more than one input devices.
+A standard SPI has 4 signals:MISO(Master Input Slave Output),MOSI(Master Output Slave Input),SCK(clock),SS(Slave Select).
+Since it includes clock signal,no need to know baude rate prior.
+
+I2C
+
+Serial communication protocol.
+In this protocol multiple masters are included.
+So multiple slaves can communicate with multiple masters or multiple slaves with single master.
+Has only two wires,SDA:Serial Data and SCL:Serial Clock.
+

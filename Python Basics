@@ -1,0 +1,68 @@
+To get python prompt in the terminal, simply type python in the command line.
+To exit,type exit()
+
+Python files to be saved in the extension .py
+To compile a python file, python filename.py
+
+Indendation is very important,will give us an error if we skip that.
+
+To comment,just type a # in front of the text.
+#This is a sample comment.
+
+No declaration for a variable.
+It takes the last value assigned to it if assigned more than one time.
+
+x = 4 #x is of type int
+x = "abc" #x is of type string
+
+To print,
+print("")
+
+To print a text and a variable already assigned use +
+print("abc"+x)
+This will print abcabc
+'+' can also be used to combine two strings.
+Will generate an error if tries to combane variables of different data types.
+
+3 number types in python,
+  Integer
+  Float
+  Complex
+
+To verify the type use the function type()
+print(type(x))
+
+If required to specify the type,can be type casted using hte constructor function.
+w = str(3.0)
+x = int(3)
+y = int(4.5)
+z = float(1)
+When w is printed it is considered as string 3.0
+When y is printed,it print 4 and not 4.5.
+When z is printed,it prints 1.0
+
+PYHTON STRINGS
+
+Let a = 'awesome'
+print(a[1]) outputs w
+print(a[3:8]) outputs some
+
+Strip Method
+This deletes any white spaces at the beginning and at the end of the string
+Let b = ' amazing ',
+print(b.strip()) returns 'amazing'
+
+len() function
+print(len(b)) outputs the length of the string assigned to b.Since here it is amazing it outputs 9 since white  spaces are also considered.
+
+Upper case and Lower case
+print(b.lower()) outputs ' amazing '
+print(b.upper()) outputs 'AMAZING '
+
+Replace
+print(b.replace('a','q')) outputs ' qmqzing '
+
+Split
+a = 'hai,hello'
+print(a.split(',')) outputs ['hai','hello']
+
