@@ -56,3 +56,13 @@ len() function
 print(len(b)) outputs the length of the string assigned to b.Since here it is amazing it outputs 9 since white  spaces are also considered.
 
 Upper case and Lower case
+print(b.lower()) outputs ' amazing '
+print(b.upper()) outputs 'AMAZING '
+
+Replace
+print(b.replace('a','q')) outputs ' qmqzing '
+
+Split
+a = 'hai,hello'
+print(a.split(',')) outputs ['hai','hello']
+
